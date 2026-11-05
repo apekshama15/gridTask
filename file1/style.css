@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.container {
+    width: 85%;
+    margin: 30px auto;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+/* Main Grid */
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+/* Left Section */
+.left-section {
+    display: grid;
+    grid-template-rows: 115px 222px 191px;
+    gap: 12px;
+}
+
+/* Two small images */
+.top-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+/* Right Section */
+.right-section {
+    display: grid;
+    grid-template-rows: 351px 191px;
+    gap: 12px;
+}
+
+/* Image Styling */
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.grapefruit,
+.papaya,
+.watermelon,
+.pineapple {
+    overflow: hidden;
+}
